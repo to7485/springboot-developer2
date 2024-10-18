@@ -10,6 +10,6 @@ spring:
   datasource:
 #각각의 변수에 값이 들어가야 하는데 데이터베이스는 eb가 만들어주므로
 #eb가 애플리케이션을 실행하면서 값을 지정해줄 수 있다.
-    url: jdbc:mysql://${rds.hostname}:${rds.port}/${rds.db.name}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: ${rds.username}
-    password: ${rds.password}
+    url: jdbc:mysql://awseb-e-8j9vy5amuk-stack-awsebrdsdatabase-lggyz39kewu1.c98ei4acia5x.ap-northeast-2.rds.amazonaws.com:3306/ebdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: testpm
+    password: 11111111
